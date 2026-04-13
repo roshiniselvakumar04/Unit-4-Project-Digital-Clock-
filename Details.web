@@ -1,0 +1,18 @@
+To create a Digital Clock using HTML, CSS, and JavaScript that displays the current time and updates every second using timing events and DOM manipulation. 
+Procedure 
+1.	Create HTML Structure: 
+o	Add a containerto display the clock. o 	Use an element(like <h1> or <div>) to show the time.
+2.	Design using CSS:
+o	Center the clockon the webpage. o Style the text with large font size. o 	Add backgroundcolor and digital-styleappearance. 	 
+3.	Implement JavaScript Functionality:
+o	Use Date() object to get current time. o 	Extract hours, minutes, and seconds. o 	Format time properly(HH:MM:SS). 	 o	Use setInterval() to update time everysecond. o 	Update the DOM content dynamically.
+4.	Testing:
+o	Runthe program in browser. o 	Check if time updates every second. o 	Verify correct time format.
+Working 
+•	The program uses the JavaScript Date object to get the current system time. 
+•	A function runs every second using setInterval(). 
+•	Each time: 
+o	Current time is fetched. o Hours, minutes, and seconds 
+are extracted. 
+o	Time is formatted and displayed. 
+•	The clock updates continuously without refreshing the page. 
